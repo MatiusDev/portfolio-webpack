@@ -148,7 +148,7 @@ a {
     background: #213e4a;
     background:
         linear-gradient(to bottom, #2c5f73ba, #0f2027d4 85%, #020506 100%),
-        url('/public/assets/images/background-image.jpg');
+        url('../images/background-image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
