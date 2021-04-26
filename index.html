@@ -63,13 +63,8 @@
             </nav>
         </nav>
 
-        <section class="home__container">
-            <div class="home__bg-group">
-                <div class="home__bg-image"></div>
-                <div class="home__bg-fadeover"></div>
-            </div>
-
-            <div class="home__content">
+        <section class="home__section">
+            <div class="home__container">
                 <div class="home__title">
                     <h1>Mateo Monsalve</h1>
                     <h2>
@@ -77,36 +72,34 @@
                             >
                             <span id="terminal__underscore">_</span>
                         </span>
-                        <span id="role">Frontend Developer</span>
+                        Frontend Developer
                     </h2>
-                </div>
-                <div class="home__icons">
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
         </section>
 
-        <section id="about" class="about__container">
-            <div class="about__content">
+        <section id="about" class="about__section">
+            <div class="about__container">
                 <div class="about__image">
-                    <img src="./public/assets/images/profile.png" alt="me">
+                    <img src="public/assets/images/profile.png" alt="me">
                 </div>
                 <div class="about__skills-container">
-                    <div class="about__text">
+                    <div class="about__description">
                         <h1>Acerca de mí</h1>
-                        <p>
-                            Programador con experiencia en desarrollo web y fullstack development, enfocado principalmente en el desarrollo frontend de aplicaciones con JS Vainilla e implementando librerías y frameworks.
-                        </p>
-                        <br>
-                        <p>
-                            <span>Practicas | </span> Desarrollo de aplicaciones usando técnicas de código ágil, limpio, mantenible y versionado.
-                        </p>
-                        <br>
-                        <p>
-                            <span>Preferencias | </span>
-                            Proporcionar soluciones innovadoras que aporten un aprendizaje continuo e impulsen a las empresas en el entorno tecnologico.
-                        </p>
+                        <div class="about__description-content">
+                            <p>
+                                Programador con experiencia en desarrollo web y fullstack development, enfocado principalmente en el desarrollo frontend de aplicaciones con JS Vainilla e implementando librerías y frameworks.
+                            </p>
+                            <br>
+                            <p>
+                                <span>Practicas | </span> Desarrollo de aplicaciones usando técnicas de código ágil, limpio, mantenible y versionado.
+                            </p>
+                            <br>
+                            <p>
+                                <span>Preferencias | </span>
+                                Proporcionar soluciones innovadoras que aporten un aprendizaje continuo e impulsen a las empresas en el entorno tecnologico.
+                            </p>
+                        </div>
                     </div>
                     <div class="about__galery">
                         <div class="about__galery-title">
@@ -130,8 +123,8 @@
             </div>
         </section>
 
-        <section id="devs" class="devs__container">
-            <div class="devs__content">
+        <section id="devs" class="devs__section">
+            <div class="devs__container">
                 <div class="devs__cards">
                     <div class="devs__card-item devs__card-work">
                         <h2>Front-End</h2>
@@ -142,7 +135,7 @@
                         <h2>Caracteristicas</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis accusantium nulla nihil atque dolore harum natus doloremque, unde porro delectus odit voluptatum eligendi impedit earum enim molestias, explicabo ex minima.</p>
                     </div>
-                    <div class="devs__card-item devs__description">
+                    <div id="devs__backend-desc" class="devs__card-item devs__description">
                         <h2>Caracteristicas</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis accusantium nulla nihil atque dolore harum natus doloremque, unde porro delectus odit voluptatum eligendi impedit earum enim molestias, explicabo ex minima.</p>
                     </div>
@@ -154,6 +147,70 @@
                 </div>
             </div>
         </section>
+
+        <section id="contact" class="contact__section">
+            <div class="contact__container">
+                <div class="contact__content">
+                    <div class="contact__phrase">
+                        <h2>
+                            Sabemos lo que somos, pero no sabemos lo que podemos ser.
+                            <span> - William Shakespeare</span>
+                        </h2>
+                    </div>
+                    <div class="contact__menu">
+                        <button id="contact__btnOpen" class="contact__btnMenu" type="button">
+                            <i class="fas fa-mail-bulk"></i>
+                            <span>Contactame ahora</span>
+                        </button>
+                        <a href="https://drive.google.com/u/0/uc?id=1VyZy3YwST3A2snxGMi1_OmopmA7DihRD&export=download" target="_blank" class="contact__btnMenu" download>
+                            <i class="fas fa-download"></i>
+                            <span>Descargar CV</span>
+                        </a>
+                    </div>
+                    <div class="contact__footer">
+                        <div class="contact__icons">
+                            <a href="https://www.linkedin.com/in/mateo-monsalve/">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/TheMatius/">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=+573137247868" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                            <a href="mailto:thematius.monsalve@gmail.com" target="_blank">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                        <div class="contact__copyright">
+                            <p>Portafolio creado por mí &#169; 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact__form-container">
+                <div class="contact__form-wrap">
+                    <i id="contact__btnClose" class="fas fa-times"></i>
+                    <h1>Gracias por tu interés, espero que pronto podamos trabajar juntos.</h1>
+                    <form class="contact__form" action="https://usebasin.com/f/dc038d2c7058" method="POST">
+                        <div class="contact__name">
+                            <label for="lblName">Nombre</label>
+                            <input name="name" type="text" required>
+                        </div>
+                        <div class="contact__email">
+                            <label for="lblEmail">Email</label>
+                            <input name="email" type="email" required>
+                        </div>
+                        <div class="contact__message">
+                            <label for="lblMessage">Mensaje</label>
+                            <textarea name="message" required></textarea>
+                        </div>
+                        <button id="btnSubmit-contact" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
