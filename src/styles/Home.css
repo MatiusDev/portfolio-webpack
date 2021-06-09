@@ -1,0 +1,90 @@
+.home__section {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding-top: 70px;
+  background: #213e4a;
+  background:
+      linear-gradient(to bottom, #2c5f73ba, #0f2027d4 85%, #020506 100%),
+      url('@images/background-image.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home__container {
+  height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+}
+
+.home__title {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: max-content;
+  margin: 0px 35px;
+}
+
+.home__title h1 {
+  color: #dedede;
+  font-family: 'Literata', serif;
+  font-size: 6em;
+  line-height: 1.2;
+  align-self: center;
+}
+
+.home__title h2 {
+  color: #ffffffa6;
+  font-size: 1.5em;
+  font-weight: 500;
+  align-self: flex-end;
+}
+
+#terminal {
+  font-family: 'Jura', sans-serif;
+  font-size: 1.6em;
+  font-weight: 600;
+  letter-spacing: -7px;
+  margin-right: 10px;
+  color: #43d214;
+  position: relative;
+  top: 2px;
+}
+
+#terminal__underscore {
+  animation: 
+      terminal
+      1.5s
+      infinite
+      ease-in-out
+      running;
+}
+
+@keyframes terminal {
+  0% {
+      color: #43d214;
+  }
+  100% {
+      color: transparent;
+  }
+}
+
+@media screen and (min-width: 1980px) {
+  .home__title {
+      font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .home__title h1 {
+      font-size: 5em;
+  }
+}
+
+@media screen and (max-width: 762px) {
+  .home__title {
+      width: min-content;
+  }
+}

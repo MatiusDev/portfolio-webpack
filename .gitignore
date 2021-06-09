@@ -1,5 +1,3 @@
-node_modules/
-
-public/assets/styles/oldstyles.css
-public/assets/oldindex.html
+node_modules
+dist
 

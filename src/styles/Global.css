@@ -1,0 +1,90 @@
+@import url('@fortawesome/fontawesome-free/css/all.css');
+
+@font-face {
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 200;
+  src:
+    url('@fonts/bai-jamjuree-v4-latin-200.woff2') format('woff2'),
+    url('@fonts/bai-jamjuree-v4-latin-200.woff') format('woff'),
+    url('@fonts/bai-jamjuree-v4-latin-200.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url('@fonts/bai-jamjuree-v4-latin-300.woff2') format('woff2'),
+    url('@fonts/bai-jamjuree-v4-latin-300.woff') format('woff'),
+    url('@fonts/bai-jamjuree-v4-latin-300.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('@fonts/bai-jamjuree-v4-latin-regular.woff2') format('woff2'),
+    url('@fonts/bai-jamjuree-v4-latin-regular.woff') format('woff'),
+    url('@fonts/bai-jamjuree-v4-latin-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url('@fonts/bai-jamjuree-v4-latin-500.woff2') format('woff2'),
+    url('@fonts/bai-jamjuree-v4-latin-500.woff') format('woff'),
+    url('@fonts/bai-jamjuree-v4-latin-500.ttf') format('truetype'),
+}
+
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('@fonts/jura-v16-latin-regular.woff2') format('woff2'),
+    url('@fonts/jura-v16-latin-regular.woff') format('woff'),
+    url('@fonts/jura-v16-latin-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Literata';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url('@fonts/literata-v23-latin-700.woff2') format('woff2'),
+    url('@fonts/literata-v23-latin-700.woff') format('woff'),
+    url('@fonts/literata-v23-latin-700.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  background-color:#111111;
+  scroll-behavior: smooth;
+}
+
+ul, ol, li {
+  list-style: none;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.main__container {
+  min-width: 500px;
+  width: 100%;
+}
